@@ -39,13 +39,13 @@ jobs:
     - name: Checkmarx CxFlow Action
       uses: checkmarx-ts/checkmarx-cxflow-github-action@49d8269b14ca87910ba003d47a31fa0c7a11f2fe
       with:
-        project: TestCheckmarx1
-        app: TestCheckmarx1
+        project: TestProject
+        app: TestProject
         team: '/CxServer'
-        preset: High
+        preset: Medium
         break_build: false
         incremental: false
-        checkmarx_url: https://b8fd-31-168-164-190.ngrok.io    
+        checkmarx_url: https://7f60-31-168-164-190.ngrok.io   
         checkmarx_username: admin@cx
         checkmarx_password: Cx123456!
         checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
